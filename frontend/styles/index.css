@@ -2,14 +2,17 @@
 
 @font-face {
   font-family: "Theseason";
-  src: url("../fonts/theseasons/theseasons-lt.otf") format('otf'),
-    url("../fonts/theseasons/theseasons-reg.otf") format('otf');
+  src: url("../fonts/theseasons/theseasons-reg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Theseason-light";
+  src: url("../fonts/theseasons/theseasons-lt.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Garet";
-  src: url("../fonts/garet/Garet-Book.woff") format('woff'),
-    url("../fonts/garet/Garet-Book.woff2") format('woff2');
+  src: url("../fonts/garet/Garet-Book.otf") format("opentype");
 }
 
 :root {
@@ -21,7 +24,7 @@
 
 main {
   background-color: var(--beige);
-  font-family: "Theseason";
+  font-family: "Theseason-light";
   margin-top: -10rem;
 }
 
