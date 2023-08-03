@@ -1,27 +1,32 @@
-<div class="itinerary text-white py-md-4" id="itinerario">
+<div class="itinerary text-white py-md-4">
   <div class="row m-0 justify-content-center">
     <div class="col-12 col-md-8 bg-green py-5 shadow-lg p-3 mb-5">
-      <h1 class="text-center mb-4 font-garet text-light-green fs-3">Itinerario</h1>
-      <div class="d-flex justify-content-center mb-5">
-        <img src = "images/icons/church.svg" alt="church"/>
-        <div class="d-flex flex-column ms-4">
-          <h3>Parroquia</h3>
-          <h2>San Juan Bautista</h2>
-          <h3>De La Salle De Monterrey</h3>
-          <h2 class="font-garet">4:00 PM</h2>
-          <p class="font-garet">Virgilio Garza 400, Chepevera, 64030 Monterrey, N.L.</p>
-          <%= link_to "Ubicación", "/", class: "btn btn-outline-light btn-lg w-75 rounded-pill", target: "_blank" %>
+      <h1 class="text-center mb-4 font-garet text-light-green fs-3" id="itinerario">Itinerario</h1>
+      <div class="row justify-content-center p-0">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-start mb-5">
+          <img src = "images/icons/church.svg" alt="church"/>
+          <div class="d-flex flex-column ms-4">
+            <h3 class="fs-4">Parroquia</h3>
+            <h2 class="fs-3">San Juan Bautista</h2>
+            <h3 class="fs-4">De La Salle De Monterrey</h3>
+            <h2 class="font-garet lh-base fs-4">4:00 PM</h2>
+            <p class="font-garet lh-base">Virgilio Garza 400, Chepevera, 64030 Monterrey, N.L.</p>
+            <%= link_to "Ubicación", "https://www.google.com/maps/place/Parroquia+San+Juan+Bautista+De+La+Salle+De+Monterrey/@25.6811498,-100.3461672,17z/data=!3m1!4b1!4m6!3m5!1s0x866295fb7690adf7:0x687ef0e0ec90046c!8m2!3d25.681145!4d-100.3435923!16s%2Fg%2F1tgm38vs?entry=ttu", class: "btn btn-outline-light btn-lg w-75 rounded-pill", target: "_blank" %>
+          </div>
         </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <img src = "images/icons/party.svg" alt="party"/>
-        <div class="d-flex flex-column ms-4">
-          <h3>Parroquia</h3>
-          <h2>San Juan Bautista</h2>
-          <h3>De La Salle De Monterrey</h3>
-          <h2 class="font-garet">4:00 PM</h2>
-          <p class="font-garet">Virgilio Garza 400, Chepevera, 64030 Monterrey, N.L.</p>
-          <%= link_to "Ubicación", "/", class: "btn btn-outline-light btn-lg w-75 rounded-pill", target: "_blank" %>
+        <div class="w-100"></div>
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-start">
+          <img src = "images/icons/party.svg" alt="party"/>
+          <div class="d-flex flex-column ms-4">
+            <h3 class="fs-4">Recepción</h3>
+            <h2 class="fs-3">Los Pinos 112</h2>
+            <h2 class="font-garet lh-base fs-4">7:30 PM</h2>
+            <h3 class="fs-3">Recepción y foto con novios</h3>
+            <h2 class="font-garet lh-base fs-4">8:30 PM</h2>
+            <h3 class="fs-3">Entrada de Novios</h3>
+            <p class="font-garet lh-base">Los Pinos 112, 4 Caminos, Los Rodríguez, 67301 Santiago, N.L</p>
+            <%= link_to "Ubicación", "https://www.google.com/maps/place/Los+Pinos+112/@25.479722,-100.1801337,17z/data=!3m1!4b1!4m6!3m5!1s0x8662c8b6c63a6669:0xc7d52a8a4bba3bd8!8m2!3d25.4797172!4d-100.1775588!16s%2Fg%2F1tdsk692?entry=ttu", class: "btn btn-outline-light btn-lg w-75 rounded-pill", target: "_blank" %>
+          </div>
         </div>
       </div>
     </div>
