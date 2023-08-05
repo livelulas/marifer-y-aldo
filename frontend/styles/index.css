@@ -124,7 +124,7 @@ nav {
 .photo-goodbye {
   height: 30rem;
   background-image: url("../../src/images/goodbye.jpg");
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -143,6 +143,6 @@ nav {
 
   @media (min-width: 768px) {
     height: 35rem;
-    background-position: top -25rem right;
+    background-position: bottom;
   }
 }
