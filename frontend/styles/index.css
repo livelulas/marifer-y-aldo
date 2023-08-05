@@ -124,12 +124,25 @@ nav {
 .photo-goodbye {
   height: 30rem;
   background-image: url("../../src/images/goodbye.jpg");
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
   @media (min-width: 768px) {
     height: 43rem;
     background-position: bottom -25px right;
+  }
+}
+
+.photo-black-and-white {
+  height: 20rem;
+  background-image: url("../../src/images/black-and-white.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    height: 35rem;
+    background-position: bottom;
   }
 }
