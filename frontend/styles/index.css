@@ -133,3 +133,16 @@ nav {
     background-position: bottom -25px right;
   }
 }
+
+.photo-black-and-white {
+  height: 20rem;
+  background-image: url("../../src/images/black-and-white.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    height: 35rem;
+    background-position: top -25rem right;
+  }
+}
